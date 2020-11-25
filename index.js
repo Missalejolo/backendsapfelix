@@ -5,7 +5,7 @@ const express =require('express');  //declaracion
 
 //importante para conexion del front con el back
 //Uso de cors
-app.use(cors({origin: '*'}));
+app.use(cors({origin: 'https://sapfelix.vercel.app'}));
 // conectar con el link de su frontend app.use(cors({origin: 'https://ppi-app.vercel.app/'})) 
  
  //se define las otras rutas
